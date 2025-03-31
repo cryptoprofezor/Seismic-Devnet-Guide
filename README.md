@@ -11,6 +11,12 @@ curl https://sh.rustup.rs -sSf | sh
 . "$HOME/.cargo/env"
 ```
 
+Verify Installation 
+
+```
+rustc --version
+```
+
 # 2. Install jq
 
 For WSL/Ubuntu
