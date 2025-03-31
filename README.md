@@ -68,20 +68,27 @@ This script will generate a wallet and promt a Faucet Url and the wallet address
 
 # Interact with an encrypted contract 🤖
 
-# 1. Install Bun
+
+# 1. Navigate to home directory:
+
+```
+cd $home
+```
+
+# 2. Install Bun
 
 ```
 curl -fsSL https://bun.sh/install | bash
 ```
 
-# 2. Install node dependencies
+# 3. Install node dependencies
 
 ```
 cd try-devnet/packages/cli/
 bun install
 ```
 
-# 3. Send transactions
+# 4. Send transactions
 
 ```
 bash script/transact.sh
