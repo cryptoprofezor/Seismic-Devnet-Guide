@@ -100,7 +100,7 @@ bash script/transact.sh
 
 Done ✅
 
-👉 Join TG for more Updates: https://telegram.me/cryptogg
+👉 Join TG for more Updates: https://telegram.me/Mrcrypto_tamilan
 
 If U have any issue then open a issue on this repo or Dm me on TG~
 
