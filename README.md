@@ -1,17 +1,20 @@
-# Seismic-Devnet-Contract-Deploy-Guide
-Guide How to Deploy Seismic Devnet Contract 
+# 🚀 Seismic DevNet Encrypted Contract Deployment Guide By MCT
+
+This guide provides a streamlined approach to deploying encrypted contracts on Seismic DevNet, tailored for our community
 
 
-# Pre-Requirements
+# 🛠 System Setup Requirements
 
 # 1. Install Rust
+
+Rust is essential for building the necessary binaries.
 
 ```
 curl https://sh.rustup.rs -sSf | sh  
 . "$HOME/.cargo/env"
 ```
 
-Verify Installation 
+After installation, verify with 
 
 ```
 rustc --version
@@ -45,31 +48,31 @@ source ~/.bashrc
 ```
 sfoundryup
 ```
-🔺This Process can take a while to fully download
+🔺This process might take some time, especially when it appears to stall at 98%. Patience is key
 
 
-# Deploy an encrypted contract 🎶
+# 📜 Deploying the Encrypted Contract
 
-# 1. Clone & Navigate to The Repo
+# 1. Clone the Repo
 
 ```
 git clone --recurse-submodules https://github.com/SeismicSystems/try-devnet.git
 cd try-devnet/packages/contract/
 ```
 
-# 2. Deploy contract (Follow all instructions here)
+# 2. Deploy the Contract 
 
 ```
 bash script/deploy.sh
 ```
 
-This script will generate a wallet and promt a Faucet Url and the wallet address of that wallet! You have to take the faucet and Done✅
+This script will generate a new wallet and provide a faucet URL along with the wallet address. Use the faucet link to fund your wallet ✅
 
 
-# Interact with an encrypted contract 🤖
+# 🤖 Interacting with the Deployed Contract
 
 
-# 1. Navigate to home directory:
+# 1. Navigate to home directory
 
 ```
 cd $home
@@ -81,7 +84,7 @@ cd $home
 curl -fsSL https://bun.sh/install | bash
 ```
 
-# 3. Install node dependencies
+# 3. Install Node Dependencies
 
 ```
 cd try-devnet/packages/cli/
@@ -89,6 +92,7 @@ bun install
 ```
 
 # 4. Send transactions
+Use the provided script to send transactions
 
 ```
 bash script/transact.sh
